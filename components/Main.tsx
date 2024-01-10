@@ -30,7 +30,7 @@ const Main = () => {
           <Button
             type="button"
             title="Download App"
-            variant="btn_green"
+            variant="btn_dark_green"
             className="w-full sm:w-auto"
           />
           <Button

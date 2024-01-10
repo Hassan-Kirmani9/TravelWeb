@@ -6,9 +6,15 @@ import Button from "./Button"
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5 border-b-2 ">
-      <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
-      </Link>
+       <Link href="/">
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <h1 style={{ marginLeft: '10px', display: 'flex', alignItems: 'center', fontFamily: 'Inter, sans-serif' ,  fontSize: '30px',  fontWeight: 'bold'}}>
+        <span style={{ color: '#30AF5B' }}>Travel</span>
+        <span style={{ color: 'black' }}>Next</span>
+        <span style={{ color: '#30AF5B', margin: '0 5px' }}>.</span>
+      </h1>
+    </div>
+  </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (

@@ -52,35 +52,31 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
+        'About Travel Next',
         'Privacy Policy',
         'Contact Us',
       ],
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Climbing ', 'Hiking '],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Contact Me', value: '+92 3172078993' },
+      { label: 'Email Me', value: 'hk1066215@gmail.com' },
     ],
   };
   
   export const SOCIALS = {
     title: 'Social',
     links: [
-      '/facebook.svg',
+      '/youtube.svg',
       '/instagram.svg',
       '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
+  
     ],
   };
